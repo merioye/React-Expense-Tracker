@@ -1,0 +1,63 @@
+.status-wrapper{
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.status-wrapper h1{
+    text-align: center;
+    color: orange;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+}
+
+.balance-wrapper{
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color: rgb(201, 198, 198);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.balance-wrapper h3{
+    font-size: 2.2rem;
+}
+.balance-wrapper h4{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+
+.income-and-expense-wrapper{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.income-wrapper{
+    height: 100%;
+    width: 48%;
+    color: rgb(110, 235, 110);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.expense-wrapper{
+    height: 100%;
+    width: 48%;
+    color: rgb(236, 71, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.income-wrapper h4, .expense-wrapper h4{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.income-wrapper p, .expense-wrapper p{
+    font-size: 1.5rem;
+}
